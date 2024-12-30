@@ -1,0 +1,14 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:install": "npm run dev:gateway && npm run dev:authentication",
+    "dev:gateway": "cd ./api-gateway && npm i",
+    "dev:authentication": "cd ./authentication-service && npm i"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
